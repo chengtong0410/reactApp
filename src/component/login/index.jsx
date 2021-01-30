@@ -7,7 +7,9 @@ export default class Login extends React.Component {
        history.push({
         pathname: '/home',
         state: {
-            id: 3
+            id: 3,
+            name:2,
+            age:5
         }
     })
     }
